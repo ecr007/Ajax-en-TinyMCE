@@ -1,5 +1,3 @@
-<script type="text/javascript" src="<your installation path>/tiny_mce/tiny_mce.js"></script>
-<script type="text/javascript">
 tinyMCE.init({
     mode : "textareas",
     theme : "advanced"
@@ -26,9 +24,8 @@ function ajaxSave() {
         alert(ed.getContent());
     }, 3000);
 }
-</script>
 
-<form method="post" action="somepage">
-    <textarea name="content" style="width:100%">
-    </textarea>
-</form>
+// <form method="post" action="somepage">
+//     <textarea name="content" style="width:100%">
+//     </textarea>
+// </form>
